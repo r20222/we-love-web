@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin:0rem;
+    padding:0rem;
+}
+:root{
+    /* kleuren */
+
+    --white: #F8FFE5;
+    --emerald: #06D6A0;
+    --blue: #1B9AAA;
+    --pink: #EF476F;
+    --orange: #FFC43D;
+}
+html{
+    background-color: var(--orange);
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* navigatie */
+nav{
+    margin-top: 2rem;
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+nav > ul{
+    width:80vw;
+    list-style: none;
+    padding-left:0rem;;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration-color: var(--blue);
+    color: black;
+}
+
+/* section */
+section{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/* artikelen */
+.article-grid-container{
+    margin-top:1rem;
+    display:grid;
+    place-items: center;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-gap:1rem;
+}
+article{
+    position: relative;
+    width:80vw ;
+    height:18rem;
+    background-color: var(--pink);
+    border-radius:1rem;
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+}
+article li{
+    margin-top:1.5rem;
+    
+}
+.complete-article{
+    margin-top:4rem;
+    width:80vw;
+    height: calc(100% + 4rem);
+}
+.css-week-screen{
+    max-width:90%;
+    margin-left: 1rem;
+}
+.link-article{
+    color: black;
+    text-decoration-color: var(--white);
+}
+.article-img{
+    width:71vw;
+    max-width: 20rem;
+    position: relative;
+}
+article h1{
+    font-size: 4rem;
+}
+article h2{
+    font-size: 2.5rem;;
+}
+article p{
+    margin: 1rem 1rem 0 1rem;
+    align-self: flex-start;
+}
+article a.button{
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    padding:.5rem 0 .8rem 0;
+    border-radius:1.5rem;
+    width:8rem;
+    height: 2rem;
+    background-color: var(--emerald);
+    color:black;
+    bottom:1rem;
+}
+article a.button:hover{
+    background-color: var(--blue);
+}
+.learn-css{
+    position:relative;
+    align-self: start;
+    margin-left:1rem;
+    list-style: none;
+    margin-right:1rem;
+}
+.handige-links{
+    list-style: none;
+    margin-left:2rem;
+}
+.handige-links a{
+    color: black;
+    text-decoration-color:var(--white);
+}
+.resp-list{
+    margin-left:2rem;
+}
+h5{
+    margin-left: 1rem;
+}
+.last-article{
+    overflow:hidden;
+    animation: disco 10s linear infinite;
+}
+@keyframes disco{
+    50%{
+        background-color: var(--emerald);
+    }
+}
+.object{
+    font-size: 2rem;
+    visibility: hidden;
+    animation: object 3s linear infinite;
+    transform:1s;
+}
+@keyframes object{
+    10%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+    30%{
+        visibility: visible;
+    }
+    40%{
+        visibility: hidden;
+    }
+}
+.emojis{
+opacity:0;
+}
+.last-article:hover .emojis{
+    font-size: 2rem;
+    opacity:1;
+    animation: emojis 18s linear infinite;
+    position: absolute;
+}
+@keyframes emojis{
+    0%{
+        transform: translateX(-100vw);
+
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+/* footer */
+footer{
+    height:5rem;
+}
+
+
+/* mediaqueries */
+@media screen and (min-width:53em){
+    .article-grid-container{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 1rem 1rem;
+        width: 80vw;
+        position:relative;
+        right:calc(-10%);
+    }
+    article{
+        width:calc(80vw/2) ;
+    }
+    article li{
+        font-size: 2rem;
+    }
+    ul.resp-list li{
+        font-size: 1.5rem;
+    }
+    h5{
+        font-size: 1.8rem;
+    }
+    .article-img{
+        /* left: calc(50% - 10rem); */
+        margin-left: 1rem;
+    }
+    .css-week-screen{
+        max-width: 40rem;
+        margin-left: 1rem;
+    }
+    .complete-article p{
+        font-size: 1.5rem;
+        max-width:40rem;
+    }
+}
+
+@media screen and (min-width:70em){
+    .article-grid-container{
+        grid-template-columns: repeat(3 , 1fr);
+        grid-gap: 1rem 1rem;
+        width: 80vw;
+        position:relative;
+        margin-bottom:5rem;
+    }
+    article{
+        width:calc(80vw/3) ;
+        
+    }
+}

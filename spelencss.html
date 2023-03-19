@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>We Love Web blog</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">We Love Web</a></li>
+            <li><a title="Github van r20222" target="_blank" href="https://github.com/r20222">r20222</a></li>
+        </ul>
+    </nav>
+
+    <main class="article-grid-container">
+
+        <article class="complete-article">
+            <h2>Spelen met CSS</h2>
+            <h3>Door: r20222</h3>
+            <h4>27-02-2023 t/m 03-03-2023</h4>
+
+            <section>
+            <img class="css-week-screen" src="assets/css-week.png" alt="CSS week project">
+            <p>
+                Voordat we aan de 'spelen met CSS' week begonnen moest iedereen eerst een kunstwerk uitkiezen
+                die we zouden willen gaan namaken met CSS. Dit kunstwerk kon vanalles zijn. Ik heb zelf een poster
+                van mijn favoriete band, Khruangbin, uitgezocht. Het is een poster die gemaakt is door Michelle Urra voor een van Khruangbin's live concerten.
+                Bekijk hier de poster: <a class="link-article" target="_blank" href="https://michelleurra.com/Khruangbin">Khruangbin poster van Michelle Urra</a>.
+            </p>
+            <p>
+                De lessen van Sanne en Sundous waren erg leuk en leerzaam, we gingen bijvoorbeeld een pinguin animatie
+                die Sanne had gemaakt proberen na te maken. Dit deden we in Codepen: <a class="link-article" target="_blank" href="https://codepen.io/shooft/pen/qBdZapQ">pinguin animatie</a>.
+            </p>
+            <p>
+                Ik heb tijdens deze CSS week deze webpagina gemaakt met html en CSS: <a class="link-article" href="https://r20222.github.io/CSS-week-project/" target="_blank">CSS week project</a>.
+                Na afloop heb ik mijn werk gepresenteerd aan de klas en mocht iedereen 3 stemmen uitbrengen. Mijn project
+                kreeg 8 stemmen, en ik won ook nog eens de juryprijs. Na afloop van deze week was ik zo geïnspireerd en
+                gemotiveerd om meer te oefenen met CSS dat ik nog een project heb gemaakt: <a class="link-article" href="https://r20222.github.io/TeleVision/" target="_blank">r20222 television</a>.
+            </p>
+            <p>
+                Dankzij de lessen in deze week heb ik een aantal nieuwe dingen geleerd over CSS. Ik zal ze hieronder uitleggen:
+            </p>
+            <p>
+                <ul class="learn-css">
+                    <li><b>aspect-ratio:</b></li>
+                    <p>
+                    Deze CSS property, aspect-ratio, is heel handig als je bijvoorbeeld snel de grootte en breedte
+                    van een object wil vaststellen. Je kan bijvoorbeeld typen: aspect-ratio: 1/1; Dit betekend dat 
+                    het object even hoog als breed zal worden weergegeven. Je hoeft daarom ook alleen maar de breedte of
+                    de hoogte van het object mee te geven als je ook aspect-ratio gebruikt.
+                    </p>
+
+                    
+                    <li><b>inherit:</b></li>
+                    <p>
+                    Deze CSS waarde betekent dat een waarde wordt overgenomen van een parent element. Dus als bijvoorbeeld een article element
+                    de CSS property en value 'color: blue;' heeft, en een kind element de CSS property en value 'color: inherit;' heeft, dan
+                    neemt het kind element de waarde 'blue' van het ouder element over.
+                    </p>
+
+                    
+                    <li><b>filter:</b></li>
+                    <p>
+                    Met de filter property in CSS kan je een filter zetten over een element. Er zijn heel veel verschillende soorten filters.
+                    In het project dat ik gemaakt het tijdens deze week heb ik een filter gebruikt om te te gebruiken bij het animeren van het
+                    verbranden van de raket in de zon. Ik had gemaakt dat wanneer je op de raket klikt, deze naar de zon vliegt, verbrand en verdwijnt.
+                    Het verbranden kon met de 'filter:brightness(0);' worden gemaakt. Door deze filter met waarde 0 wordt de raket helemaal zwart, alsof die
+                    helemaal verbrand.
+                    </p>
+                    <img class="article-img" src="assets/filter rocket.png" alt="filter raket">
+
+
+                    <li><b>calc():</b></li>
+                    <p>
+                    De calc() waarde in CSS is superhandig. Deze waarde kan dingen berekenen. Als je bijvoorbeeld even
+                    element precies in het midden wil plaatsen en dit element een breedte heeft van 4rem, dan kan je dat 
+                    op de volgende manier doen, je geeft het de 'position: relative;' en 'right: calc(50% - 2rem)'. Je trekt er 
+                    2 rem vanaf omdat dat de helft is van de totale breedte. Hierdoor komt het element precies in het midden te staan.
+                    </p>
+
+                    
+                    <li><b>box-shadow: inset;</b></li>
+                    <p>
+                    De 'box-shadow: inset;' property en value geven een inwaardse schaduw. Dus in plaats van
+                    dat de schaduw buiten het element word weergegeven, zie je die in het element.
+                    </p>
+
+                    
+                    <li><b>radial-gradient: (circle at 25% 25%, blue, black);</b></li>
+                    <p>
+                    Met radial gradients kan je hele coole dingen maken in CSS. Met de bovenstaande value 'circle at 25% 25%'
+                    kan je zelfs aangeven  waar je precies wilt dat de cirkel weergegeven gaat worden.
+                    </p>
+                </ul>
+            </p>
+
+            <h5>Een aantal handige links:</h5>
+            <ul class="handige-links">
+                <li><a href="https://9elements.github.io/fancy-border-radius/full-control.html#100.100.28.10-99.100.0.4-377.400">Fancy border radius</a></li>
+                <li><a href="https://bennettfeely.com/clippy/">Clippy</a></li>
+                
+            </ul>
+            </section>
+            <a class="button" href="/">terug</a>
+        </article>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
