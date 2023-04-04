@@ -127,6 +127,7 @@ article a.button:hover{
 .resp-list{
     margin-left:4rem;
     color: var(--white);
+    padding-right: 1rem;
 }
 h5{
     margin-left: 1rem;
