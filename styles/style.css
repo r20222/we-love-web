@@ -129,6 +129,20 @@ article a.button:hover{
     color: var(--white);
     padding-right: 1rem;
 }
+hr{
+    margin-top:1rem;
+    border: none;
+    background-color: var(--orange);
+    height:.1rem;
+}
+.dos{
+    margin-top:1rem;
+    margin-left:1rem;
+    height:20rem;
+}
+.margin-top-2{
+    margin-top:2rem;
+}
 h5{
     margin-left: 1rem;
 }
