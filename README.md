@@ -2,6 +2,9 @@
 
 Lees hier mijn We Love Web blog!
 
+![image](https://github.com/r20222/we-love-web/assets/101579892/4878cced-9f89-4ad7-b27a-e43fee6ad8f7)
+
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
