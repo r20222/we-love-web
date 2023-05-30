@@ -2,7 +2,7 @@
 
 Lees hier mijn We Love Web blog!
 
-![image](https://github.com/r20222/we-love-web/assets/101579892/4878cced-9f89-4ad7-b27a-e43fee6ad8f7)
+![image](https://github.com/r20222/we-love-web/assets/101579892/b894ce39-deea-4053-b450-d0f5f13d8cbd)
 
 
 ## Licentie
