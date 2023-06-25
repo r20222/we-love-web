@@ -147,6 +147,9 @@ h5{
     margin-top:1rem;
     margin-left: 1rem;
 }
+.chatgpt{
+   -webkit-text-stroke: .09px var(--white);
+}
 .last-article{
     overflow:hidden;
     animation: disco 10s linear infinite;
